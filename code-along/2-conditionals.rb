@@ -69,3 +69,20 @@ end
 if temp < 50 || precipitation == 0
     puts "code seems to work"
 end
+
+
+# nesting if else / final piece of if else
+
+your_team_score = rand(50..80)
+other_team_score = rand(50..80)
+
+puts "Your team: #{your_team_score}"
+puts "Other team: #{other_team_score}"
+
+if your_team_score > other_team_score
+    puts "Yay, your team won!"
+elsif your_team_score == other_team_score
+    puts "Ok, you tied..."
+else
+    puts "Your team lost :("
+end
