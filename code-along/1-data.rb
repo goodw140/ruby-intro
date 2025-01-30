@@ -24,7 +24,7 @@ puts "Ollie farts! " * 3
 puts "Ollie farts " + 3.to_s
 
 
-# True, False (boullions)
+# True, False (booleans)
 puts true
 puts false
 
