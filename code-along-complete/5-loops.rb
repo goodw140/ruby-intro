@@ -95,6 +95,6 @@ end
 #   index = index + 1
 # end
 
-# for taco in tacos
-#   puts "#{taco} tacos!"
-# end
+for taco in tacos
+  puts "#{taco} tacos!"
+end
